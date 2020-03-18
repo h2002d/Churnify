@@ -1,0 +1,10 @@
+C:\Users\davit\source\repos\Churnify\Churnify.Data\bin\Debug\netcoreapp3.1\Churnify.Data.deps.json
+C:\Users\davit\source\repos\Churnify\Churnify.Data\bin\Debug\netcoreapp3.1\Churnify.Data.dll
+C:\Users\davit\source\repos\Churnify\Churnify.Data\obj\Debug\netcoreapp3.1\Churnify.Data.AssemblyInfoInputs.cache
+C:\Users\davit\source\repos\Churnify\Churnify.Data\obj\Debug\netcoreapp3.1\Churnify.Data.AssemblyInfo.cs
+C:\Users\davit\source\repos\Churnify\Churnify.Data\bin\Debug\netcoreapp3.1\Churnify.Data.runtimeconfig.json
+C:\Users\davit\source\repos\Churnify\Churnify.Data\bin\Debug\netcoreapp3.1\Churnify.Data.runtimeconfig.dev.json
+C:\Users\davit\source\repos\Churnify\Churnify.Data\bin\Debug\netcoreapp3.1\Churnify.Data.pdb
+C:\Users\davit\source\repos\Churnify\Churnify.Data\obj\Debug\netcoreapp3.1\Churnify.Data.dll
+C:\Users\davit\source\repos\Churnify\Churnify.Data\obj\Debug\netcoreapp3.1\Churnify.Data.pdb
+C:\Users\davit\source\repos\Churnify\Churnify.Data\obj\Debug\netcoreapp3.1\Churnify.Data.csprojAssemblyReference.cache
