@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Churnify.Core", "Churnify.C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Churnify.Data", "Churnify.Data\Churnify.Data.csproj", "{524DFF9E-66BC-4BCC-A87E-98882B91065F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Churnify.Web.Api", "Churnify\Churnify.Web.Api.csproj", "{65EDFE33-432F-4AFA-B01B-6CCA6EAF9B2A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Churnify.Web.App", "Churnify.Web.App\Churnify.Web.App.csproj", "{6AEA5599-E10F-4AA8-ABB7-16157C1FDD85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{524DFF9E-66BC-4BCC-A87E-98882B91065F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{524DFF9E-66BC-4BCC-A87E-98882B91065F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{524DFF9E-66BC-4BCC-A87E-98882B91065F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{65EDFE33-432F-4AFA-B01B-6CCA6EAF9B2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{65EDFE33-432F-4AFA-B01B-6CCA6EAF9B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{65EDFE33-432F-4AFA-B01B-6CCA6EAF9B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{65EDFE33-432F-4AFA-B01B-6CCA6EAF9B2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AEA5599-E10F-4AA8-ABB7-16157C1FDD85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AEA5599-E10F-4AA8-ABB7-16157C1FDD85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AEA5599-E10F-4AA8-ABB7-16157C1FDD85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AEA5599-E10F-4AA8-ABB7-16157C1FDD85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

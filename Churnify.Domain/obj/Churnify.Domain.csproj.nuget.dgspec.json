@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\davit\\source\\repos\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj": {}
+    "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\davit\\source\\repos\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj": {
+    "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davit\\source\\repos\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj",
         "projectName": "Churnify.Domain",
-        "projectPath": "C:\\Users\\davit\\source\\repos\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj",
-        "packagesPath": "C:\\Users\\davit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davit\\source\\repos\\Churnify\\Churnify.Domain\\obj\\",
+        "projectPath": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj",
+        "packagesPath": "C:\\Users\\davitha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\davit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\davitha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -56,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

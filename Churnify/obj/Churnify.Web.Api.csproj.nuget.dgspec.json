@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\davit\\source\\repos\\Churnify\\Churnify\\Churnify.Web.Api.csproj": {}
+    "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify\\Churnify.Web.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\davit\\source\\repos\\Churnify\\Churnify.Core\\Churnify.Core.csproj": {
+    "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Core\\Churnify.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davit\\source\\repos\\Churnify\\Churnify.Core\\Churnify.Core.csproj",
+        "projectUniqueName": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Core\\Churnify.Core.csproj",
         "projectName": "Churnify.Core",
-        "projectPath": "C:\\Users\\davit\\source\\repos\\Churnify\\Churnify.Core\\Churnify.Core.csproj",
-        "packagesPath": "C:\\Users\\davit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davit\\source\\repos\\Churnify\\Churnify.Core\\obj\\",
+        "projectPath": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Core\\Churnify.Core.csproj",
+        "packagesPath": "C:\\Users\\davitha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\davit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\davitha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -30,7 +31,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Data\\Churnify.Data.csproj": {
+                "projectPath": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Data\\Churnify.Data.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -41,6 +46,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -52,6 +63,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -60,20 +74,21 @@
         }
       }
     },
-    "C:\\Users\\davit\\source\\repos\\Churnify\\Churnify.Data\\Churnify.Data.csproj": {
+    "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Data\\Churnify.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davit\\source\\repos\\Churnify\\Churnify.Data\\Churnify.Data.csproj",
+        "projectUniqueName": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Data\\Churnify.Data.csproj",
         "projectName": "Churnify.Data",
-        "projectPath": "C:\\Users\\davit\\source\\repos\\Churnify\\Churnify.Data\\Churnify.Data.csproj",
-        "packagesPath": "C:\\Users\\davit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davit\\source\\repos\\Churnify\\Churnify.Data\\obj\\",
+        "projectPath": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Data\\Churnify.Data.csproj",
+        "packagesPath": "C:\\Users\\davitha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\davit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\davitha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -98,6 +113,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.2, )"
@@ -143,20 +162,21 @@
         }
       }
     },
-    "C:\\Users\\davit\\source\\repos\\Churnify\\Churnify\\Churnify.Web.Api.csproj": {
+    "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify\\Churnify.Web.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davit\\source\\repos\\Churnify\\Churnify\\Churnify.Web.Api.csproj",
+        "projectUniqueName": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify\\Churnify.Web.Api.csproj",
         "projectName": "Churnify.Web.Api",
-        "projectPath": "C:\\Users\\davit\\source\\repos\\Churnify\\Churnify\\Churnify.Web.Api.csproj",
-        "packagesPath": "C:\\Users\\davit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davit\\source\\repos\\Churnify\\Churnify\\obj\\",
+        "projectPath": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify\\Churnify.Web.Api.csproj",
+        "packagesPath": "C:\\Users\\davitha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\davit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\davitha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -170,11 +190,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\davit\\source\\repos\\Churnify\\Churnify.Core\\Churnify.Core.csproj": {
-                "projectPath": "C:\\Users\\davit\\source\\repos\\Churnify\\Churnify.Core\\Churnify.Core.csproj"
+              "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Core\\Churnify.Core.csproj": {
+                "projectPath": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Core\\Churnify.Core.csproj"
               },
-              "C:\\Users\\davit\\source\\repos\\Churnify\\Churnify.Data\\Churnify.Data.csproj": {
-                "projectPath": "C:\\Users\\davit\\source\\repos\\Churnify\\Churnify.Data\\Churnify.Data.csproj"
+              "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Data\\Churnify.Data.csproj": {
+                "projectPath": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Data\\Churnify.Data.csproj"
               }
             }
           }
@@ -188,6 +208,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",

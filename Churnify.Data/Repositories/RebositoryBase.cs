@@ -1,5 +1,5 @@
 ﻿using Churnify.Data.Data;
-using Churnify.Data.Entities;
+using Churnify.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -9,7 +9,7 @@ namespace Churnify.Data.Repositories
 {
     public class RepositoryBase<T> : IRepository<T> where T : BaseEntity
     {
-        private ApplicationDbContext context;
+        protected readonly ApplicationDbContext context;
 
         public RepositoryBase(ApplicationDbContext context)
         {
@@ -26,7 +26,7 @@ namespace Churnify.Data.Repositories
             context.Set<T>().Remove(entity);
         }
 
-        public async Task<T> GetById(long id)
+        public async Task<T> GetById(int id)
         {
             return await context.Set<T>().FindAsync(id);
         }
