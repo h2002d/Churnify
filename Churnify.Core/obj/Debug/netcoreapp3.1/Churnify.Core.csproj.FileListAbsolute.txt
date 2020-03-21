@@ -19,3 +19,16 @@ C:\Users\davitha\source\repos\Git\Churnify\Churnify.Core\obj\Debug\netcoreapp3.1
 C:\Users\davitha\source\repos\Git\Churnify\Churnify.Core\bin\Debug\netcoreapp3.1\Churnify.Domain.dll
 C:\Users\davitha\source\repos\Git\Churnify\Churnify.Core\bin\Debug\netcoreapp3.1\Churnify.Domain.pdb
 C:\Users\davitha\source\repos\Git\Churnify\Churnify.Core\obj\Debug\netcoreapp3.1\Churnify.Core.csproj.CoreCompileInputs.cache
+C:\Projects\Churnify\Churnify.Core\bin\Debug\netcoreapp3.1\Churnify.Core.deps.json
+C:\Projects\Churnify\Churnify.Core\bin\Debug\netcoreapp3.1\Churnify.Core.dll
+C:\Projects\Churnify\Churnify.Core\bin\Debug\netcoreapp3.1\Churnify.Core.pdb
+C:\Projects\Churnify\Churnify.Core\bin\Debug\netcoreapp3.1\Churnify.Data.dll
+C:\Projects\Churnify\Churnify.Core\bin\Debug\netcoreapp3.1\Churnify.Domain.dll
+C:\Projects\Churnify\Churnify.Core\bin\Debug\netcoreapp3.1\Churnify.Data.pdb
+C:\Projects\Churnify\Churnify.Core\bin\Debug\netcoreapp3.1\Churnify.Domain.pdb
+C:\Projects\Churnify\Churnify.Core\obj\Debug\netcoreapp3.1\Churnify.Core.csprojAssemblyReference.cache
+C:\Projects\Churnify\Churnify.Core\obj\Debug\netcoreapp3.1\Churnify.Core.AssemblyInfoInputs.cache
+C:\Projects\Churnify\Churnify.Core\obj\Debug\netcoreapp3.1\Churnify.Core.AssemblyInfo.cs
+C:\Projects\Churnify\Churnify.Core\obj\Debug\netcoreapp3.1\Churnify.Core.csproj.CopyComplete
+C:\Projects\Churnify\Churnify.Core\obj\Debug\netcoreapp3.1\Churnify.Core.dll
+C:\Projects\Churnify\Churnify.Core\obj\Debug\netcoreapp3.1\Churnify.Core.pdb

@@ -1,5 +1,6 @@
 ﻿using Churnify.Data.Data;
 using Churnify.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -29,6 +30,11 @@ namespace Churnify.Data.Repositories
         public async Task<T> GetById(int id)
         {
             return await context.Set<T>().FindAsync(id);
+        }
+
+        public async Task<IReadOnlyList<T>> All()
+        {
+            return await context.Set<T>().ToListAsync();
         }
 
         public void Update(T entity)

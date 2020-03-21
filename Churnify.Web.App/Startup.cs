@@ -45,10 +45,12 @@ namespace Churnify.Web.App
             services.AddMvc().AddRazorRuntimeCompilation();
             services.AddScoped<ICustomerService, CustomerService>();
             services.AddScoped<ICommentService, CommentService>();
+            services.AddScoped<ICommentTypeService, CommentTypeService>();
 
 
             services.AddScoped<ICustomerRepository, CustomerRepository>();
             services.AddScoped<ICommentRepository, CommentRepository>();
+            services.AddScoped<ICommentTypeRepository, CommentTypeRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

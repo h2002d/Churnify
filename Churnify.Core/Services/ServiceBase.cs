@@ -29,6 +29,9 @@ namespace Churnify.Core.Services
             return _mapper.Map<TDto>(await _commonRepository.Create(recordToAdd));
         }
 
+        public async Task<IReadOnlyList<TDto>> All()
+            => _mapper.Map<IReadOnlyList<TDto>>(await _commonRepository.All());
+
         public async Task<TDto> GetById(int id)
             => _mapper.Map<TDto>(await _commonRepository.GetById(id));
 

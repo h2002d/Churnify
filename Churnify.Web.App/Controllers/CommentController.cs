@@ -13,11 +13,13 @@ namespace Churnify.Web.App.Controllers
     public class CommentController : Controller
     {
         private readonly ICommentService _commentService;
+        private readonly ICommentTypeService _commentTypeService;
         private readonly IMapper _mapper;
 
-        public CommentController(ICommentService commentService, IMapper mapper)
+        public CommentController(ICommentService commentService, ICommentTypeService commentTypeService, IMapper mapper)
         {
             _commentService = commentService;
+            _commentTypeService = commentTypeService;
             _mapper = mapper;
         }
 
@@ -27,13 +29,14 @@ namespace Churnify.Web.App.Controllers
             var comments = await _commentService.GetCustomerComments(customerId);
             model.Comments = _mapper.Map<List<Comment>>(comments);
             model.Customer = new Customer { Id = customerId };
+            model.CommentTypes = _mapper.Map<List<CommentType>>(await _commentTypeService.All());
             return PartialView(model);
         }
         [HttpPost]
         public async Task<IActionResult> Create(Comment comment)
         {
-            //_commentService.Add(comment);
-            return View();
+            var model = await _commentService.Add(_mapper.Map<Churnify.Domain.Dto.Comment>(comment));
+            return RedirectToAction("Index", "Customer", model.CustomerId);
         }
     }
 }

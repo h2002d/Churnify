@@ -34,6 +34,18 @@
                     <form method="post" action="/Comment/create">
                         <input type="hidden" value="dave.dave" id="UserId" name="userId" />
                         <input type="hidden" value="@Model.Customer.Id" id="CustomerId" name="CustomerId" />
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <label>Comment type</label>
+                                <select id="CommentTypeId" name="CommentTypeId" class="select2 form-control custom-select" asp-items="Model.CommentTypesList">
+                                    <option value="">Type</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-1">
+                                <label>Rating</label>
+                                <input type="number" class="form-control" min="1" value="5" max="10" id="Rating" name="rating" />
+                            </div>
+                        </div>
                         <div id="Content" name="Content" style="height: 300px;">
                             <p>Type your comment...</p>
                         </div>

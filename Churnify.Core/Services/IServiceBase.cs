@@ -10,6 +10,7 @@ namespace Churnify.Core.Services
     {
         Task<TDto> GetById(int id);
 
+        Task<IReadOnlyList<TDto>> All();
         Task<TDto> Add(TDto dto);
 
         Task Update(TDto dto);

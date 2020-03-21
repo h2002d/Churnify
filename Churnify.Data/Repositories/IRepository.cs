@@ -10,6 +10,7 @@ namespace Churnify.Data.Repositories
     {
         Task<T> GetById(int id);
         Task<T> Create(T entity);
+        Task<IReadOnlyList<T>> All();
         void Delete(T entity);
         void Update(T entity);
     }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Churnify.Domain.Entities
 {
-    public class CommentType
+    public class CommentType:BaseEntity
     {
         [Key]
         public int Id { get; set; }
