@@ -1,11 +1,10 @@
-﻿@model Churnify.Web.App.ViewModels.CustomerDetailViewModel
+﻿@model Churnify.Web.App.ViewModels.Customers.CustomerDetailViewModel
 
 @{
     ViewBag.Title = "Customer: John Sienna #8502-005";
     var customer = Model == null ? null : Model.Customer;
 }
 
-<div class="page-wrapper">
     <div class="row">
         <div class="col-sm-6">
             <div class="tab">
@@ -176,10 +175,9 @@
             </div>
         </div>
     </div>
-    <div id="comment_container">
+    <div id="comment_container" class="col-sm-12">
 
     </div>
-</div>
 
 @section Scripts{
     <script>

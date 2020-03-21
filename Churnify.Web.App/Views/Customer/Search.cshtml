@@ -1,0 +1,68 @@
+﻿@model Churnify.Web.App.ViewModels.Customers.CustomerSearchModel
+@if (Model.Customers != null)
+{
+    <div class="page-breadcrumb">
+        <div class="row">
+            <div class="col-12 d-flex no-block align-items-center">
+                <h4 class="page-title">Search results for <b>@Model.Query</b></h4>
+            </div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Bread crumb and right sidebar toggle -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- Container fluid  -->
+    <!-- ============================================================== -->
+    <div class="container-fluid">
+        <!-- ============================================================== -->
+        <!-- Sales Cards  -->
+        <!-- ============================================================== -->
+        <div class="row">
+            <!-- Column -->
+            @foreach (var customer in Model.Customers)
+            {
+                <div class="col-md-6 col-lg-4 col-xlg-3">
+                    <a href="/Customer/Index/@customer.Id">
+                        <div class="card card-hover">
+                            <div class="box bg-danger text-center">
+                                <h1 class="font-light text-white"><i class="mdi mdi-account-card-details"></i></h1>
+                                <h6 class="text-white">@customer.LastName @customer.FirstName</h6>
+                                <h6 class="text-white">Phone :<b>@customer.PhoneNumber</b></h6>
+                                <h6 class="text-white">Email :<b>@customer.Email</b></h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            }
+
+        </div>
+    </div>
+}
+else
+{
+    <div class="page-breadcrumb">
+        <div class="row">
+            <div class="col-12 d-flex no-block align-items-center">
+                <h4 class="page-title">No records for <b>@Model.Query</b></h4>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <!-- ============================================================== -->
+        <!-- Sales Cards  -->
+        <!-- ============================================================== -->
+        <div class="row">
+            <div class="col-md-6 col-lg-4 col-xlg-3" style="margin:auto;">
+                <a href="/Customer/Create">
+                    <div class="card card-hover">
+                        <div class="box bg-danger text-center">
+                            <h1 class="font-light text-white"><i class="mdi mdi-account-card-details"></i></h1>
+                            <h6 class="text-white">New</h6>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+}

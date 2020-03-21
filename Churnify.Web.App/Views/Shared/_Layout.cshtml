@@ -19,6 +19,7 @@
     <link rel="stylesheet" type="text/css" href="~/assets/libs/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
     <link rel="stylesheet" type="text/css" href="~/assets/libs/quill/dist/quill.snow.css">
     <link href="~/dist/css/style.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.16/dist/summernote-bs4.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -52,7 +53,7 @@
                     <!-- ============================================================== -->
                     <!-- Logo -->
                     <!-- ============================================================== -->
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="/">
                         <!-- Logo icon -->
                         <b class="logo-icon p-l-10">
                             <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
@@ -97,8 +98,8 @@
                         <!-- ============================================================== -->
                         <li class="nav-item search-box">
                             <a class="nav-link waves-effect waves-dark" href="javascript:void(0)"><i class="ti-search"></i></a>
-                            <form class="app-search position-absolute">
-                                <input type="text" class="form-control" placeholder="Search &amp; enter"> <a class="srh-btn"><i class="ti-close"></i></a>
+                            <form class="app-search position-absolute" method="get" action="/Customer/Search">
+                                <input type="text" id="query" name="query" minlength="5"  class="form-control" placeholder="Search &amp; enter"> <a class="srh-btn"><i class="ti-close"></i></a>
                             </form>
                         </li>
                     </ul>
@@ -218,7 +219,7 @@
                 <!-- Sidebar navigation-->
                 <nav class="sidebar-nav">
                     <ul id="sidebarnav" class="p-t-30">
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="index.html" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu">Dashboard</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="/" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu">Dashboard</span></a></li>
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="charts.html" aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu">Charts</span></a></li>
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="widgets.html" aria-expanded="false"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Widgets</span></a></li>
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="tables.html" aria-expanded="false"><i class="mdi mdi-border-inside"></i><span class="hide-menu">Tables</span></a></li>
@@ -271,43 +272,45 @@
             </div>
             <!-- End Sidebar scroll-->
         </aside>
-        <div>
+        <div class="page-wrapper">
             @RenderBody()
         </div>
-        <!-- ============================================================== -->
-        <!-- End Wrapper -->
-        <!-- ============================================================== -->
-        <!-- ============================================================== -->
-        <!-- All Jquery -->
-        <!-- ============================================================== -->
-        <script src="~/assets/libs/jquery/dist/jquery.min.js"></script>
-        <!-- Bootstrap tether Core JavaScript -->
-        <script src="~/assets/libs/popper.js/dist/umd/popper.min.js"></script>
-        <script src="~/assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
-        <!-- slimscrollbar scrollbar JavaScript -->
-        <script src="~/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
-        <script src="~/assets/extra-libs/sparkline/sparkline.js"></script>
-        <!--Wave Effects -->
-        <script src="~/dist/js/waves.js"></script>
-        <!--Menu sidebar -->
-        <script src="~/dist/js/sidebarmenu.js"></script>
-        <!--Custom JavaScript -->
-        <script src="~/dist/js/custom.min.js"></script>
-        <!-- This Page JS -->
-        <script src="~/assets/libs/inputmask/dist/min/jquery.inputmask.bundle.min.js"></script>
-        <script src="~/dist/js/pages/mask/mask.init.js"></script>
-        <script src="~/assets/libs/select2/dist/js/select2.full.min.js"></script>
-        <script src="~/assets/libs/select2/dist/js/select2.min.js"></script>
-        <script src="~/assets/libs/jquery-asColor/dist/jquery-asColor.min.js"></script>
-        <script src="~/assets/libs/jquery-asGradient/dist/jquery-asGradient.js"></script>
-        <script src="~/assets/libs/jquery-asColorPicker/dist/jquery-asColorPicker.min.js"></script>
-        <script src="~/assets/libs/jquery-minicolors/jquery.minicolors.min.js"></script>
-        <script src="~/assets/libs/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
-        <script src="~/assets/libs/quill/dist/quill.min.js"></script>
-        <script src="~/assets/extra-libs/multicheck/datatable-checkbox-init.js"></script>
-        <script src="~/assets/extra-libs/multicheck/jquery.multicheck.js"></script>
-        <script src="~/assets/extra-libs/DataTables/datatables.min.js"></script>
-        @RenderSection("Scripts", required: false)
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="~/assets/libs/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="~/assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="~/assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="~/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="~/assets/extra-libs/sparkline/sparkline.js"></script>
+    <!--Wave Effects -->
+    <script src="~/dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="~/dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="~/dist/js/custom.min.js"></script>
+    <!-- This Page JS -->
+    <script src="~/assets/libs/inputmask/dist/min/jquery.inputmask.bundle.min.js"></script>
+    <script src="~/dist/js/pages/mask/mask.init.js"></script>
+    <script src="~/assets/libs/select2/dist/js/select2.full.min.js"></script>
+    <script src="~/assets/libs/select2/dist/js/select2.min.js"></script>
+    <script src="~/assets/libs/jquery-asColor/dist/jquery-asColor.min.js"></script>
+    <script src="~/assets/libs/jquery-asGradient/dist/jquery-asGradient.js"></script>
+    <script src="~/assets/libs/jquery-asColorPicker/dist/jquery-asColorPicker.min.js"></script>
+    <script src="~/assets/libs/jquery-minicolors/jquery.minicolors.min.js"></script>
+    <script src="~/assets/libs/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="~/assets/libs/quill/dist/quill.min.js"></script>
+    <script src="~/assets/extra-libs/multicheck/datatable-checkbox-init.js"></script>
+    <script src="~/assets/extra-libs/multicheck/jquery.multicheck.js"></script>
+    <script src="~/assets/extra-libs/DataTables/datatables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.16/dist/summernote-bs4.min.js"></script>
+    @RenderSection("Scripts", required: false)
 </body>
 
 </html>

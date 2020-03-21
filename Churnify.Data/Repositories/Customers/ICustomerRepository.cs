@@ -9,5 +9,6 @@ namespace Churnify.Data.Repositories.Customers
     public interface ICustomerRepository : IRepository<Customer>
     {
         public Task<IReadOnlyList<Customer>> GetCustomers(int page, int pageCount);
+        public Task<IReadOnlyList<Customer>> GetCustomersBySearchQuery(string query);
     }
 }

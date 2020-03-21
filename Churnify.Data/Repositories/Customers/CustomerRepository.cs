@@ -20,5 +20,9 @@ namespace Churnify.Data.Repositories.Customers
         {
             return await context.Customers.Skip((page-1)* pageCount).Take(pageCount).ToListAsync(); 
         }
+        public async Task<IReadOnlyList<Customer>> GetCustomersBySearchQuery(string query)
+        {
+            return await context.Customers.Where(x=>x.PhoneNumber.Contains(query)||x.Email.Contains(query)).ToListAsync(); 
+        }
     }
 }

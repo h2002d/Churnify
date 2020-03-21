@@ -25,5 +25,11 @@ namespace Churnify.Core.Services.Customers
             var customers = await _customerRepository.GetCustomers(page, pageCount);
             return _mapper.Map<IReadOnlyList<Customer>>(customers);
         }
+
+        public async Task<IReadOnlyList<Customer>> GetCustomersBySearchQuery(string query)
+        {
+            var customers = await _customerRepository.GetCustomersBySearchQuery(query);
+            return _mapper.Map<IReadOnlyList<Customer>>(customers);
+        }
     }
 }

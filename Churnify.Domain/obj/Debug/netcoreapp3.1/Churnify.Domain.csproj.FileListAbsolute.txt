@@ -5,15 +5,6 @@ C:\Users\davit\source\repos\Churnify\Churnify.Domain\obj\Debug\netcoreapp3.1\Chu
 C:\Users\davit\source\repos\Churnify\Churnify.Domain\obj\Debug\netcoreapp3.1\Churnify.Domain.AssemblyInfo.cs
 C:\Users\davit\source\repos\Churnify\Churnify.Domain\obj\Debug\netcoreapp3.1\Churnify.Domain.dll
 C:\Users\davit\source\repos\Churnify\Churnify.Domain\obj\Debug\netcoreapp3.1\Churnify.Domain.pdb
-C:\Users\davitha\source\repos\Git\Churnify\Churnify.Domain\bin\Debug\netcoreapp3.1\Churnify.Domain.deps.json
-C:\Users\davitha\source\repos\Git\Churnify\Churnify.Domain\bin\Debug\netcoreapp3.1\Churnify.Domain.dll
-C:\Users\davitha\source\repos\Git\Churnify\Churnify.Domain\bin\Debug\netcoreapp3.1\Churnify.Domain.pdb
-C:\Users\davitha\source\repos\Git\Churnify\Churnify.Domain\obj\Debug\netcoreapp3.1\Churnify.Domain.AssemblyInfoInputs.cache
-C:\Users\davitha\source\repos\Git\Churnify\Churnify.Domain\obj\Debug\netcoreapp3.1\Churnify.Domain.AssemblyInfo.cs
-C:\Users\davitha\source\repos\Git\Churnify\Churnify.Domain\obj\Debug\netcoreapp3.1\Churnify.Domain.dll
-C:\Users\davitha\source\repos\Git\Churnify\Churnify.Domain\obj\Debug\netcoreapp3.1\Churnify.Domain.pdb
-C:\Users\davitha\source\repos\Git\Churnify\Churnify.Domain\obj\Debug\netcoreapp3.1\Churnify.Domain.csproj.CoreCompileInputs.cache
-C:\Users\davitha\source\repos\Git\Churnify\Churnify.Domain\obj\Debug\netcoreapp3.1\Churnify.Domain.csprojAssemblyReference.cache
 C:\Projects\Churnify\Churnify.Domain\bin\Debug\netcoreapp3.1\Churnify.Domain.deps.json
 C:\Projects\Churnify\Churnify.Domain\bin\Debug\netcoreapp3.1\Churnify.Domain.dll
 C:\Projects\Churnify\Churnify.Domain\bin\Debug\netcoreapp3.1\Churnify.Domain.pdb
@@ -22,3 +13,11 @@ C:\Projects\Churnify\Churnify.Domain\obj\Debug\netcoreapp3.1\Churnify.Domain.Ass
 C:\Projects\Churnify\Churnify.Domain\obj\Debug\netcoreapp3.1\Churnify.Domain.AssemblyInfo.cs
 C:\Projects\Churnify\Churnify.Domain\obj\Debug\netcoreapp3.1\Churnify.Domain.dll
 C:\Projects\Churnify\Churnify.Domain\obj\Debug\netcoreapp3.1\Churnify.Domain.pdb
+C:\Users\davitha\source\repos\Git\Churnify\Churnify.Domain\bin\Debug\netcoreapp3.1\Churnify.Domain.deps.json
+C:\Users\davitha\source\repos\Git\Churnify\Churnify.Domain\bin\Debug\netcoreapp3.1\Churnify.Domain.dll
+C:\Users\davitha\source\repos\Git\Churnify\Churnify.Domain\bin\Debug\netcoreapp3.1\Churnify.Domain.pdb
+C:\Users\davitha\source\repos\Git\Churnify\Churnify.Domain\obj\Debug\netcoreapp3.1\Churnify.Domain.csproj.CoreCompileInputs.cache
+C:\Users\davitha\source\repos\Git\Churnify\Churnify.Domain\obj\Debug\netcoreapp3.1\Churnify.Domain.AssemblyInfoInputs.cache
+C:\Users\davitha\source\repos\Git\Churnify\Churnify.Domain\obj\Debug\netcoreapp3.1\Churnify.Domain.AssemblyInfo.cs
+C:\Users\davitha\source\repos\Git\Churnify\Churnify.Domain\obj\Debug\netcoreapp3.1\Churnify.Domain.dll
+C:\Users\davitha\source\repos\Git\Churnify\Churnify.Domain\obj\Debug\netcoreapp3.1\Churnify.Domain.pdb

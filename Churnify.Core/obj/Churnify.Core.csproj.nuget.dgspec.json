@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Churnify\\Churnify.Core\\Churnify.Core.csproj": {}
+    "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Core\\Churnify.Core.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Churnify\\Churnify.Core\\Churnify.Core.csproj": {
+    "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Core\\Churnify.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Churnify\\Churnify.Core\\Churnify.Core.csproj",
+        "projectUniqueName": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Core\\Churnify.Core.csproj",
         "projectName": "Churnify.Core",
-        "projectPath": "C:\\Projects\\Churnify\\Churnify.Core\\Churnify.Core.csproj",
-        "packagesPath": "C:\\Users\\davit\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Churnify\\Churnify.Core\\obj\\",
+        "projectPath": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Core\\Churnify.Core.csproj",
+        "packagesPath": "C:\\Users\\davitha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\davit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\davitha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -31,11 +32,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Projects\\Churnify\\Churnify.Data\\Churnify.Data.csproj": {
-                "projectPath": "C:\\Projects\\Churnify\\Churnify.Data\\Churnify.Data.csproj"
+              "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Data\\Churnify.Data.csproj": {
+                "projectPath": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Data\\Churnify.Data.csproj"
               },
-              "C:\\Projects\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj": {
-                "projectPath": "C:\\Projects\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj"
+              "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj": {
+                "projectPath": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj"
               }
             }
           }
@@ -76,24 +77,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\Churnify\\Churnify.Data\\Churnify.Data.csproj": {
+    "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Data\\Churnify.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Churnify\\Churnify.Data\\Churnify.Data.csproj",
+        "projectUniqueName": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Data\\Churnify.Data.csproj",
         "projectName": "Churnify.Data",
-        "projectPath": "C:\\Projects\\Churnify\\Churnify.Data\\Churnify.Data.csproj",
-        "packagesPath": "C:\\Users\\davit\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Churnify\\Churnify.Data\\obj\\",
+        "projectPath": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Data\\Churnify.Data.csproj",
+        "packagesPath": "C:\\Users\\davitha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\davit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\davitha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -107,8 +109,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Projects\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj": {
-                "projectPath": "C:\\Projects\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj"
+              "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj": {
+                "projectPath": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj"
               }
             }
           }
@@ -171,24 +173,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj": {
+    "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj",
         "projectName": "Churnify.Domain",
-        "projectPath": "C:\\Projects\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj",
-        "packagesPath": "C:\\Users\\davit\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Churnify\\Churnify.Domain\\obj\\",
+        "projectPath": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj",
+        "packagesPath": "C:\\Users\\davitha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\davit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\davitha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -227,7 +230,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

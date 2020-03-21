@@ -1822,11 +1822,12 @@ pre {
     width: 100%;
     max-width: 100%;
     margin-bottom: 1rem;
-    background-color: transparent
+    background-color: transparent ;
+    font-size: 12px;
 }
 
     .table td, .table th {
-        padding: 1rem;
+        padding: 5px;
         vertical-align: top;
         border-top: 1px solid #dee2e6
     }
@@ -15982,7 +15983,7 @@ label {
         cursor: pointer;
         padding: 14px 16px;
         transition: 0.3s;
-        font-size: 17px;
+        font-size: 15px;
     }
 
         /* Change background color of buttons on hover */
@@ -15997,4 +15998,8 @@ label {
 
 .tabcontent {
     display: none;
+}
+
+.note-editable {
+    height: 300px;
 }

@@ -19,12 +19,14 @@ namespace Churnify.Data.Repositories
         public async Task<T> Create(T entity)
         {
             await context.Set<T>().AddAsync(entity);
+            await context.SaveChangesAsync();
             return entity;
         }
 
         public void Delete(T entity)
         {
             context.Set<T>().Remove(entity);
+            context.SaveChanges();
         }
 
         public async Task<T> GetById(int id)
@@ -40,6 +42,7 @@ namespace Churnify.Data.Repositories
         public void Update(T entity)
         {
             context.Set<T>().Update(entity);
+            context.SaveChanges();
         }
 
     }

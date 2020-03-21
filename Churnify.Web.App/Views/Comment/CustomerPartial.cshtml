@@ -11,6 +11,8 @@
                         <th scope="col">#</th>
                         <th scope="col">User</th>
                         <th scope="col">Comment</th>
+                        <th scope="col">Type</th>
+                        <th scope="col">Rating</th>
                         <th scope="col">DateTime</th>
                     </tr>
                 </thead>
@@ -23,7 +25,9 @@
                                 <th scope="row">@item.Id</th>
                                 <td>@item.UserId</td>
                                 <td>@item.Content</td>
-                                <td>Today</td>
+                                <td>@item.CommentType.Name</td>
+                                <td>@item.Rating</td>
+                                <td>@item.CreateDate.ToString("dd/MM/yyyy HH:mm")</td>
                             </tr>
                         }
                     }
@@ -37,7 +41,7 @@
                         <div class="row">
                             <div class="col-sm-3">
                                 <label>Comment type</label>
-                                <select id="CommentTypeId" name="CommentTypeId" class="select2 form-control custom-select" asp-items="Model.CommentTypesList">
+                                <select id="CommentTypeId" required="required" name="CommentTypeId" class="select2 form-control custom-select" asp-items="Model.CommentTypesList">
                                     <option value="">Type</option>
                                 </select>
                             </div>
@@ -45,14 +49,15 @@
                                 <label>Rating</label>
                                 <input type="number" class="form-control" min="1" value="5" max="10" id="Rating" name="rating" />
                             </div>
+                            <div class="col-sm-8">
+                                @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+                            </div>
                         </div>
-                        <div id="Content" name="Content" style="height: 300px;">
-                            <p>Type your comment...</p>
-                        </div>
-
+                        <textarea id="Content" name="Content" style="height: 300px;">
+                        </textarea>
                         <div class="border-top">
                             <div class="card-body">
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="submit" disabled id="btn_Submit" class="btn btn-primary">Submit</button>
                             </div>
                         </div>
                     </form>
@@ -62,7 +67,12 @@
     </div>
 </div>
 <script>
-    var quill = new Quill('#Content', {
-        theme: 'snow'
+    
+    $(document).ready(function () {
+        $('#Content').summernote();
+        $('#Content').on('summernote.change', function () {
+            $('#btn_Submit').prop('disabled', $('#Content').val().length == 0);
+        });
     });
+   
 </script>

@@ -24,6 +24,6 @@ namespace Churnify.Core.Services.Comments
         {
             var comments = await _customerRepository.GetCustomerComments(customerId);
             return _mapper.Map<IReadOnlyList<Comment>>(comments);
-        }
+        } 
     }
 }

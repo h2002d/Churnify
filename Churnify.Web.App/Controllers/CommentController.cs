@@ -27,7 +27,7 @@ namespace Churnify.Web.App.Controllers
         {
             var model = new CustomerCommentViewModel();
             var comments = await _commentService.GetCustomerComments(customerId);
-            model.Comments = _mapper.Map<List<Comment>>(comments);
+            model.Comments = _mapper.Map<List<Comment>>(comments).OrderByDescending(x=>x.Id).ToList();
             model.Customer = new Customer { Id = customerId };
             model.CommentTypes = _mapper.Map<List<CommentType>>(await _commentTypeService.All());
             return PartialView(model);
@@ -35,8 +35,17 @@ namespace Churnify.Web.App.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(Comment comment)
         {
-            var model = await _commentService.Add(_mapper.Map<Churnify.Domain.Dto.Comment>(comment));
-            return RedirectToAction("Index", "Customer", model.CustomerId);
+            if (ModelState.IsValid)
+            {
+                comment.CreateDate = DateTime.Now;
+                var model = await _commentService.Add(_mapper.Map<Churnify.Domain.Dto.Comment>(comment));
+                return RedirectToAction("Index", "Customer", new { Id = model.CustomerId });
+            }
+            else
+            {
+                ModelState.AddModelError("", "Fill all fields");
+                return RedirectToAction("Index", "Customer", new { Id = comment.CustomerId });
+            }
         }
     }
 }

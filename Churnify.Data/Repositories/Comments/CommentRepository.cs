@@ -18,7 +18,8 @@ namespace Churnify.Data.Repositories.Comments
 
         public async Task<IReadOnlyList<Comment>> GetCustomerComments(int customerId)
         {
-            return await context.Comments.Where(x => x.CustomerId == customerId).ToListAsync();
+            var model = await context.Comments.Where(x => x.CustomerId == customerId).Include(blog => blog.CommentType).ToListAsync();
+            return model;
         }
     }
 }
