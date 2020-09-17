@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yYN2OeYPluqE0qxFKZOYZVINODF3bSwE9RQOCs8zM1StwHBSN1MiPvDqeoB3taOJpmVXQifex5YugvItT1P0bQ==",
+  "dgSpecHash": "c0ZRMrwyHwhjXUwIT/dPxmc4iCO8DDSXabBgyv9bKA0C0y6TlKaT1iTzVIAtXTNlHBvBvlJBoEcxnyFQv0v7kQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj",
+  "projectFilePath": "C:\\Projects\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

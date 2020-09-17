@@ -8,25 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\davitha\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\davit\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj",
+      "projectUniqueName": "C:\\Projects\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj",
       "projectName": "Churnify.Domain",
-      "projectPath": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj",
-      "packagesPath": "C:\\Users\\davitha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\davitha\\source\\repos\\Git\\Churnify\\Churnify.Domain\\obj\\",
+      "projectPath": "C:\\Projects\\Churnify\\Churnify.Domain\\Churnify.Domain.csproj",
+      "packagesPath": "C:\\Users\\davit\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\Churnify\\Churnify.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\davitha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\davit\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -65,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

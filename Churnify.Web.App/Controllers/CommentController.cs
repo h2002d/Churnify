@@ -6,10 +6,12 @@ using AutoMapper;
 using Churnify.Core.Services.Comments;
 using Churnify.Domain.Models;
 using Churnify.Web.App.ViewModels.Comments;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Churnify.Web.App.Controllers
 {
+    [Authorize]
     public class CommentController : Controller
     {
         private readonly ICommentService _commentService;
@@ -38,6 +40,7 @@ namespace Churnify.Web.App.Controllers
             if (ModelState.IsValid)
             {
                 comment.CreateDate = DateTime.Now;
+                comment.UserId = User.Identity.Name;
                 var model = await _commentService.Add(_mapper.Map<Churnify.Domain.Dto.Comment>(comment));
                 return RedirectToAction("Index", "Customer", new { Id = model.CustomerId });
             }

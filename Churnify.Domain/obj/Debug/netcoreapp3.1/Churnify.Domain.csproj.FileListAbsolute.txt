@@ -21,3 +21,4 @@ C:\Users\davitha\source\repos\Git\Churnify\Churnify.Domain\obj\Debug\netcoreapp3
 C:\Users\davitha\source\repos\Git\Churnify\Churnify.Domain\obj\Debug\netcoreapp3.1\Churnify.Domain.AssemblyInfo.cs
 C:\Users\davitha\source\repos\Git\Churnify\Churnify.Domain\obj\Debug\netcoreapp3.1\Churnify.Domain.dll
 C:\Users\davitha\source\repos\Git\Churnify\Churnify.Domain\obj\Debug\netcoreapp3.1\Churnify.Domain.pdb
+C:\Projects\Churnify\Churnify.Domain\obj\Debug\netcoreapp3.1\Churnify.Domain.csproj.CoreCompileInputs.cache

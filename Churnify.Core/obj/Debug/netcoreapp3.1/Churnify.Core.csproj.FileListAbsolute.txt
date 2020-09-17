@@ -32,3 +32,4 @@ C:\Users\davitha\source\repos\Git\Churnify\Churnify.Core\obj\Debug\netcoreapp3.1
 C:\Users\davitha\source\repos\Git\Churnify\Churnify.Core\obj\Debug\netcoreapp3.1\Churnify.Core.csproj.CopyComplete
 C:\Users\davitha\source\repos\Git\Churnify\Churnify.Core\obj\Debug\netcoreapp3.1\Churnify.Core.dll
 C:\Users\davitha\source\repos\Git\Churnify\Churnify.Core\obj\Debug\netcoreapp3.1\Churnify.Core.pdb
+C:\Projects\Churnify\Churnify.Core\obj\Debug\netcoreapp3.1\Churnify.Core.csproj.CoreCompileInputs.cache

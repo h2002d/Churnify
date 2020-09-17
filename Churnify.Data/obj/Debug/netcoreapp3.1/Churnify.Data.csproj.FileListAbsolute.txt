@@ -36,3 +36,5 @@ C:\Users\davitha\source\repos\Git\Churnify\Churnify.Data\obj\Debug\netcoreapp3.1
 C:\Users\davitha\source\repos\Git\Churnify\Churnify.Data\obj\Debug\netcoreapp3.1\Churnify.Data.dll
 C:\Users\davitha\source\repos\Git\Churnify\Churnify.Data\obj\Debug\netcoreapp3.1\Churnify.Data.pdb
 C:\Users\davitha\source\repos\Git\Churnify\Churnify.Data\obj\Debug\netcoreapp3.1\Churnify.Data.genruntimeconfig.cache
+C:\Projects\Churnify\Churnify.Data\obj\Debug\netcoreapp3.1\Churnify.Data.csproj.CoreCompileInputs.cache
+C:\Projects\Churnify\Churnify.Data\obj\Debug\netcoreapp3.1\Churnify.Data.genruntimeconfig.cache

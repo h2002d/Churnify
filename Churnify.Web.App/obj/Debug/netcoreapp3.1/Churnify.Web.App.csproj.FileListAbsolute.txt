@@ -863,3 +863,14 @@ C:\Users\davitha\source\repos\Git\Churnify\Churnify.Web.App\obj\Debug\netcoreapp
 C:\Users\davitha\source\repos\Git\Churnify\Churnify.Web.App\obj\Debug\netcoreapp3.1\staticwebassets\Churnify.Web.App.StaticWebAssets.Manifest.cache
 C:\Users\davitha\source\repos\Git\Churnify\Churnify.Web.App\obj\Debug\netcoreapp3.1\staticwebassets\Churnify.Web.App.StaticWebAssets.xml
 C:\Users\davitha\source\repos\Git\Churnify\Churnify.Web.App\obj\Debug\netcoreapp3.1\Churnify.Web.App.genruntimeconfig.cache
+C:\Projects\Churnify\Churnify.Web.App\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Create.cshtml.g.cs
+C:\Projects\Churnify\Churnify.Web.App\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Search.cshtml.g.cs
+C:\Projects\Churnify\Churnify.Web.App\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Projects\Churnify\Churnify.Web.App\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Projects\Churnify\Churnify.Web.App\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Projects\Churnify\Churnify.Web.App\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Projects\Churnify\Churnify.Web.App\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+C:\Projects\Churnify\Churnify.Web.App\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Projects\Churnify\Churnify.Web.App\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+C:\Projects\Churnify\Churnify.Web.App\obj\Debug\netcoreapp3.1\Churnify.Web.App.csproj.CoreCompileInputs.cache
+C:\Projects\Churnify\Churnify.Web.App\obj\Debug\netcoreapp3.1\Churnify.Web.App.genruntimeconfig.cache

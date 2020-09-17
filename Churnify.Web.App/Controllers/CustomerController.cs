@@ -6,12 +6,14 @@ using AutoMapper;
 using Churnify.Core.Services.Customers;
 using Churnify.Domain.Models;
 using Churnify.Web.App.ViewModels.Customers;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace Churnifiy.Web.App.Controllers
 {
+    [Authorize]
     public class CustomerController : Controller
     {
         private readonly ICustomerService _customerService;
@@ -69,8 +71,19 @@ namespace Churnifiy.Web.App.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(CustomerCreateViewModel customer)
         {
-            var customerNew = await _customerService.Add(_mapper.Map<Churnify.Domain.Dto.Customer>(customer));
-            return RedirectToAction("Index", new { id = customerNew.Id });
+            if (customer.Id == 0)
+            {
+                var customerNew = await _customerService.Add(_mapper.Map<Churnify.Domain.Dto.Customer>(customer));
+                return RedirectToAction("Index", new { id = customerNew.Id });
+            }
+            else
+            {
+                await _customerService.Update(_mapper.Map<Churnify.Domain.Dto.Customer>(customer));
+                return RedirectToAction("Index", new { id = customer.Id });
+
+            }
+
+
         }
     }
 }
